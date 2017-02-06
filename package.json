@@ -1,7 +1,11 @@
 {
-  "name": "imdb & chill",
+  "name": "mp3_starter",
   "version": "2.0.0",
-  "homepage": "https://imdb-and-chill.herokuapp.com",
+  "homepage": "https://github.com/uiuc-web-programming/mp3_starter",
+  "authors": [
+    "biplabdeka <biplab.deka@gmail.com>",
+    "sskhandek <sskhandek@gmail.com>"
+  ],
   "dependencies": {
     "express": "^4.11.1",
     "grunt": "~0.4.2",
