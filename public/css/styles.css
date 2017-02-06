@@ -17,6 +17,7 @@
  *    without disabling user zoom.
  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+@import url("https://fonts.googleapis.com/css?family=Limelight");
 /* line 221, ../lib/foundation-sites/scss/_global.scss */
 html {
   font-family: sans-serif;
@@ -5298,16 +5299,27 @@ table.hover tr:nth-of-type(even):hover {
   clear: both;
 }
 
-/* line 4, ../../source_sass/_base.scss */
-h1, h2, h3, h4, h5, h6, p {
-  font-family: Open Sans;
-  font-weight: 300;
+/* line 6, ../../source_sass/_base.scss */
+h1 {
+  font-family: 'Limelight', cursive;
 }
 
-/* line 9, ../../source_sass/_base.scss */
+/* line 10, ../../source_sass/_base.scss */
+body, h2, h3, h4, h5, h6, p {
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+/* line 15, ../../source_sass/_base.scss */
 .card {
   background-color: #2199e8;
   padding: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+/* line 21, ../../source_sass/_base.scss */
+.card h4, .card h5, .card p {
+  color: white;
 }
 
 /*
