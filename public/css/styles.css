@@ -17,7 +17,7 @@
  *    without disabling user zoom.
  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
-@import url("https://fonts.googleapis.com/css?family=Limelight");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 /* line 221, ../lib/foundation-sites/scss/_global.scss */
 html {
   font-family: sans-serif;
@@ -5299,25 +5299,82 @@ table.hover tr:nth-of-type(even):hover {
   clear: both;
 }
 
-/* line 6, ../../source_sass/_base.scss */
-h1 {
-  font-family: 'Limelight', cursive;
+/* line 5, ../../source_sass/_base.scss */
+body {
+  background-color: #22313f;
 }
 
-/* line 10, ../../source_sass/_base.scss */
+/* line 9, ../../source_sass/_base.scss */
+a, a:visited, b {
+  color: #03947A;
+}
+
+/* line 13, ../../source_sass/_base.scss */
+a:hover {
+  color: white;
+}
+
+/* line 17, ../../source_sass/_base.scss */
+input:checked {
+  color: #03947A !important;
+}
+
+/* line 21, ../../source_sass/_base.scss */
+button {
+  border-radius: 4px !important;
+  background-color: #03947A !important;
+  color: white !important;
+}
+
+/* line 28, ../../source_sass/_base.scss */
+.detail a, .detail a:visited {
+  color: white !important;
+}
+/* line 31, ../../source_sass/_base.scss */
+.detail a {
+  background-color: #03947A !important;
+}
+
+/* line 36, ../../source_sass/_base.scss */
+label, legend {
+  font-size: 20px;
+}
+
+/* line 40, ../../source_sass/_base.scss */
+a {
+  font-size: 20px;
+}
+
+/* line 44, ../../source_sass/_base.scss */
+label, legend, .container {
+  color: white;
+}
+
+/* line 48, ../../source_sass/_base.scss */
+input, select, .card {
+  border-radius: 4px !important;
+}
+
+/* line 52, ../../source_sass/_base.scss */
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+}
+
+/* line 57, ../../source_sass/_base.scss */
 body, h2, h3, h4, h5, h6, p {
   font-family: Open Sans;
   font-weight: 400;
 }
 
-/* line 15, ../../source_sass/_base.scss */
+/* line 62, ../../source_sass/_base.scss */
 .card {
-  background-color: #2199e8;
+  background-color: #03947A;
   padding: 30px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   transition: 0.3s;
 }
-/* line 21, ../../source_sass/_base.scss */
+/* line 68, ../../source_sass/_base.scss */
 .card h4, .card h5, .card p {
   color: white;
 }

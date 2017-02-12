@@ -8,9 +8,11 @@
       <div ng-repeat="movie in movies | filter:imdbID ">
         <br>
         <span>
-          <a class="button" ng-repeat="link in movies | filter:{rank: prev}:true" href="#/list/{{link.imdbID}}/{{link.rank}}"><</a>
-          <span style="display: inline-block; width: 50px;"></span>
-          <a class="button" ng-repeat="link in movies | filter:{rank: next}:true" href="#/list/{{link.imdbID}}/{{link.rank}}">></a>
+          <div class="detail">
+            <a class="button" ng-repeat="link in movies | filter:{rank: prev}:true" href="#/list/{{link.imdbID}}/{{link.rank}}"><</a>
+            <span style="display: inline-block; width: 50px;"></span>
+            <a class="button" ng-repeat="link in movies | filter:{rank: next}:true" href="#/list/{{link.imdbID}}/{{link.rank}}">></a>
+          </div>
         </span>
 
         <div class="card">
@@ -28,4 +30,3 @@
     </div>
   </div>
 </div>
-
