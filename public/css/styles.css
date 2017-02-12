@@ -5368,13 +5368,18 @@ body, h2, h3, h4, h5, h6, p {
 }
 
 /* line 62, ../../source_sass/_base.scss */
+img {
+  border-radius: 4px;
+}
+
+/* line 66, ../../source_sass/_base.scss */
 .card {
   background-color: #03947A;
   padding: 30px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   transition: 0.3s;
 }
-/* line 68, ../../source_sass/_base.scss */
+/* line 72, ../../source_sass/_base.scss */
 .card h4, .card h5, .card p {
   color: white;
 }
