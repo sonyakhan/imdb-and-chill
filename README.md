@@ -1,5 +1,3 @@
-# Starter files for MP3
-
 ## Setup
 Use the following commands in your vagrant development environment to get this up and running
 ```bash
